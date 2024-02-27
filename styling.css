@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;   
+}
+body {  
+    font-family: sans-serif;
+    font-size:20px;
+}
+.menu-bar {
+    background-color:darksalmon;
+    text-align:left;
+    opacity:0.9;
+    
+}
+.menu-bar ul {
+   
+    display:inline-flex;
+    list-style: none;
+}
+.menu-bar ul li {
+   
+    margin:5px;
+    padding:5px;
+    margin-left:5px;   
+}
+.menu-bar ul li a {
+    text-decoration:none;
+    color:darkblue;      
+}
+.active, .menu-bar ul li:hover
+{
+    background-color: #22bbbb;
+    border-radius:3px;
+}
+.sub-menu-1 {
+    display:none;
+    
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display:block;
+    position:absolute;
+     background-color:darksalmon;
+     margin-left:-15px;
+     margin-top:15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display:block;
+    margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width:150px;
+    padding:10px;
+    border-bottom:1px dotted #fff;
+    background:transparent;
+    border-radius:0;
+    text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color:#b2ff00;
+}
+.sub-menu-2 {
+    display:none;
+}
+.hover_me:hover .sub-menu-2{
+    position:absolute;
+    display:block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color:darksalmon;
+}
+
+.sub-menu-3 {
+    display:none;
+}
+.hover_me1:hover .sub-menu-3{
+    position:absolute;
+    display:block;
+    margin-top: -100px;
+    margin-left: 140px;
+    background-color:darksalmon;
+}

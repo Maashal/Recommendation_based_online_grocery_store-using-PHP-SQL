@@ -1,0 +1,4 @@
+#FFB973 box background
+#BA9B7A heading background
+#F3DF75 background
+#BA9B7A form background
